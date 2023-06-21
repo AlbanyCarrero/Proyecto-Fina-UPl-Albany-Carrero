@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Fansite</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap" rel="stylesheet">
+
+     <!-- Bootstrap -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+</head>
+
+<body class="body">
+
+  <div class="preloader d-flex align-items-center justify-content-center">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <header class="header">
+    
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top">
+
+      <div class="container">
+
+
+        <a class="navbar-brand py-2 mt-2 fs-4" href="index.html"><h1>Lana del Rey</h1></a>
+
+        <!-- Toggle btn -->
+        <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- End Toggle btn -->
+
+        <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Lana del Rey</h5>
+            <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+
+          <div class="offcanvas-body d-flex flex-column flex-lg-row p-2 p-lg-0">
+            <ul class="navbar-nav justify-content-center align-items-center fs-6 flex-grow-1 pe-3">
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="music.html">Music</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="concerts.html">Concerts & Tours</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="giveaway.html">Giveaway</a>
+              </li>
+            </ul>
+
+            <div class="d-flex justify-content-center align-items-center gap-3">
+              <ul class="nav-socials flex-row navbar-nav justify-content-center flex-grow-1 pe-3">
+                <li class="nav-item mx-2"><a href="https://music.apple.com/es/artist/lana-del-rey/464296584" target="_blank"><i class="fa fa-apple"></i></a></li>
+                <li class="nav-item mx-2"><a href="https://open.spotify.com/artist/00FQb4jTyendYWaN8pK0wa" target="_blank"><i class="fa fa-spotify"></i></a></li>
+                <li class="nav-item mx-2"><a href="https://www.youtube.com/channel/UCqk3CdGN_j8IR9z4uBbVPSg" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                <li class="nav-item mx-2"><a href="https://web.facebook.com/lanadelrey/?locale=es_LA&_rdc=1&_rdr" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                <li class="nav-item mx-2"><a href="https://www.instagram.com/honeymoon/?hl=es" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                <li class="nav-item mx-2"><a href="#"><i class="fa fa-envelope"></i></a></li>
+              </ul>
+            </div>
+            
+          </div>
+        </div>
+
+      </div>
+
+    </nav>
+
+  </header>
+
+
+  <section id="hero" class="hero-home container-fluid d-flex justify-content-center align-items-center">
+
+    <div class="home-newsletter container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="single">
+            <h2>Join the fansite community</h2>
+            <p>And find out about the latest updates first! You can also contact us through our social media channels.</p>
+            <div class="input-group">
+              <input type="email" class="form-control" placeholder="Enter your email">
+                <span class="input-group-btn">
+                  <button class="btn btn-theme" type="submit">Subscribe</button>
+                </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="counter" class="container-fluid counter-home-fluid">
+
+    <div class="container counter-home d-flex align-items-center">
+
+      <div class="counter-content d-flex align-items-center justify-content-between flex-wrap">
+
+        <div class="counter-box d-flex align-items-center justify-content-evenly flex-column">
+          <div class="icon-counter"><i class="fa fa-spotify"></i></div>
+          <div class="counter">32752</div>
+          <div class="text-counter">Spotify</div>
+        </div>
+
+        <div class="counter-box d-flex align-items-center justify-content-evenly flex-column">
+          <div class="icon-counter"><i class="fa fa-youtube-play"></i></div>
+          <div class="counter">54270</div>
+          <div class="text-counter">YouTube</div>
+        </div>
+
+        <div class="counter-box d-flex align-items-center justify-content-evenly flex-column">
+          <div class="icon-counter"><i class="fa fa-instagram"></i></div>
+          <div class="counter">43742</div>
+          <div class="text-counter">Instagram</div>
+        </div>
+
+        <div class="counter-box d-flex align-items-center justify-content-evenly flex-column">
+          <div class="icon-counter"><i class="fa fa-newspaper-o"></i></div>
+          <div class="counter">62152</div>
+          <div class="text-counter">Newsletter</div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="about-us" class="about container-fluid">
+
+    <div class="container about-title">
+      <h4>Get to know us</h4>
+      <h2>About Us</h2>
+    </div>
+
+    <div class="container">
+
+      <div class="row gy-4 align-items-stretch justify-content-between about-item ">
+        <div class="col-lg-6 d-flex align-items-center about-img-bg rounded">
+          <img src="images/Lana-3.jpg" class="img-fluid">
+        </div>
+        <div class="col-lg-5 d-flex justify-content-center flex-column">
+          <h3>Who's Lana del Rey?</h3>
+          <p>Lana Del Rey, whose real name is Elizabeth Woolridge Grant, is an American singer, songwriter, and record producer. She gained significant recognition and popularity for her unique vocal style, nostalgic and cinematic aesthetics, and her introspective and melancholic songwriting. Del Rey's music is often described as a blend of pop, indie, and alternative genres, with influences ranging from 1950s and 1960s Americana to modern-day pop music.</p>
+          <a href="https://albanycarrero.github.io/TP3-CV-Albany-UP/" target="_blank" class="btn btn-about align-self-start">See Lana's CV</a>
+        </div>
+      </div>
+      
+      <div class="row gy-4 align-items-center about-item">
+        <div class="col-lg-5 order-2 order-lg-1">
+          <h3>Who are we?</h3>
+          <p>Our Lana Del Rey fansite is a dedicated platform that celebrates the enchanting music and artistry of Lana Del Rey. We delve into her discography, offer in-depth analyses, exclusive interviews, and keep you updated with the latest news and updates from her world. Join us on this mesmerizing journey as we explore the magic of Lana Del Rey's musical universe together.</p>
+        </div>
+        <div class="col-lg-7 order-1 order-lg-2 d-flex align-items-center">
+          <div class="image-stack">
+            <img src="images/about-3.png" alt="" class="stack-front ">
+            <img src="images/about-2.png" alt="" class="stack-back">
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="news" class="news container-fluid">
+
+    <div class="container news-title">
+      <h4>What's New?</h4>
+      <h2>Latests Updates</h2>
+    </div>
+
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/news-1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">The Artistic Evolution of Lana Del Rey: A Musical Journey Through the Decades</h5>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Writen by Someone</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/news-2.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">The Cultural Impact of Lana Del Rey: An Icon of Retro Aesthetic and Female Empowerment</h5>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Writen by Someone</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/news-3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Lana Del Rey's Discography: A Journey Through Melancholy, Love, and Americana</h5>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Writen by Someone</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="contact" class="contact">
+
+    <div class="container-fluid">
+
+      <div class="row  g-0">
+
+        <div class="col-sm-12 col-lg-6">
+
+          <div class="left">
+            <h4>Let's talk</h4>
+            <h2>Leave us a message!</h2>
+          </div>
+
+        </div>
+
+        <div class="col-sm-12 col-lg-6">
+
+          <div class="right">
+
+            <i class="fa fa-caret-left"></i>
+
+            <form netlify method="POST" class="needs-validation" name="contact-form" novalidate>
+
+              <div class="mb-3">
+                <label for="campoName" class="form-label">Name</label>
+                <input type="text" class="form-control" id="campoName" placeholder="Name" name="name" required>
+                <div class="invalid-feedback">Don't forget to write your name</div>
+                <div class="valid-feedback">Perfect!</div>
+              </div>
+
+              <div class="mb-3">
+                <label for="campoEmail" class="form-label">Email Adresse</label>
+                <input type="email" class="form-control" id="campoEmail" placeholder="name@example.com" name="email" required>
+                <div class="invalid-feedback">Write your email here</div>
+                <div class="valid-feedback">Perfect!</div>
+              </div>
+
+              <div class="mb-3">
+                <label for="campoMessage" class="form-label">Message</label>
+                <textarea class="form-control" id="campoMessage" placeholder="Write your message here!" name="txt-message" required></textarea>
+                <div class="invalid-feedback">Your message seems to be missing</div>
+                <div class="valid-feedback">Perfect!</div>
+              </div>
+              
+              <button type="submit" value="Send" class="btn btn-dark">Send</button>
+
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <footer>
+
+    <div class="container-fluid d-flex align-items-center justify-content-center flex-column container-footer">
+
+
+      <div class="container">
+
+        <h3>LANA DEL REY</h3>
+  
+        <ul class="socials">
+          <li><a href="https://music.apple.com/es/artist/lana-del-rey/464296584" target="_blank"><i class="fa fa-apple"></i></a></li>
+          <li><a href="https://open.spotify.com/artist/00FQb4jTyendYWaN8pK0wa" target="_blank"><i class="fa fa-spotify"></i></a></li>
+          <li><a href="https://www.youtube.com/channel/UCqk3CdGN_j8IR9z4uBbVPSg" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+          <li><a href="https://web.facebook.com/lanadelrey/?locale=es_LA&_rdc=1&_rdr" target="_blank"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="https://www.instagram.com/honeymoon/?hl=es" target="_blank"><i class="fa fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+        </ul>
+    
+        <p>El diseño de este sitio web es parte de un trabajo practico de la materia "Contenidos y Creatividad II" de la Universidad de Palermo.</p>  
+
+      </div>
+      
+    </div>
+
+    <div class="container-fluid footer-bottom">
+      <p>Diseñado por Albany Carrero</p>
+    </div>
+  
+  </footer>
+  
+
+  
+
+
+
+  
+  <script src="js/jquery/jquery-2.2.4.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+
+  <script src="js/script.js"></script>
+
+</body>
+</html>
