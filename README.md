@@ -5,7 +5,7 @@
 - Legajo: 0129397
 
 ### Wireframes del Proyecto
-https://www.figma.com/file/BCiRUSo36RcbbEOkGYB4yM/Contenidos-y-Creatividad-II?type=design&node-id=234%3A170&mode=design&t=ufu6g4h7GMFTze6i-1
+<a href="https://www.figma.com/file/BCiRUSo36RcbbEOkGYB4yM/Contenidos-y-Creatividad-II?type=design&node-id=234%3A170&mode=design&t=ufu6g4h7GMFTze6i-1">Link al Figma<a/>
 
 ### Contenido del sitio:
 #### - 4 Secciones navegables + CV: 
