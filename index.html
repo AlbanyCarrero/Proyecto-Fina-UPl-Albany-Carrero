@@ -91,12 +91,18 @@
           <div class="single">
             <h2>Join the fansite community</h2>
             <p>And find out about the latest updates first! You can also contact us through our social media channels.</p>
-            <div class="input-group">
-              <input type="email" class="form-control" placeholder="Enter your email">
-                <span class="input-group-btn">
-                  <button class="btn btn-theme" type="submit">Subscribe</button>
-                </span>
-            </div>
+            <form method="POST" class="needs-validation d-flex align-items-start" name="newsletter-form" netlify novalidate>
+
+              <div class="input-group">
+                <label for="campoEmail" class="form-label"></label>
+                <input type="email" class="form-control" id="campoEmail" placeholder="Enter your email!" name="email" required>
+                <div class="invalid-feedback">Write your email here (name@example.com)</div>
+                <div class="valid-feedback">Thank you!</div>
+              </div> 
+
+              <button class="btn btn-theme" type="submit">Subscribe</button>
+        
+            </form>
           </div>
         </div>
       </div>
