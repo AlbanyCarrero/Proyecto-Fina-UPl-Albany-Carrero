@@ -284,6 +284,11 @@ font-weight: bold;
   color: #F3DD78;
 }
 
+.input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+  border-top-left-radius: 5px !important;
+  border-bottom-left-radius: 5px !important;
+}
+
 /*COUNTER - HOME*/
 
 .counter-home-fluid {
