@@ -14,7 +14,7 @@
 - Concerts & Tours
 - Giveaway
 
-#### - Formulario de suscripción a newsletter y contacto validados y funcionales en la Home 
+#### - Formulario de suscripción a newsletter (corregido) y contacto validados y funcionales en la Home 
 
 #### - Animaciones: 
 - Hero con imagenes cambiantes (Home)
